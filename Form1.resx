@@ -118,33 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        Qk0aAgAAAAAAAHYAAAAoAAAAJAAAABUAAAABAAQAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAA/wAA
-        gP8AgAD/AICA/4AAAP+AAID/gIAA/8DAwP+AgID/AAD//wD/AP8A/////wAA//8A/////wD//////4iI
-        iIiIiIiIiIiIiIiIiIiIiAAAh3d3d3d3d3d3d3d3d3d3d3d4AACHd3d3d3d3d3d3d3d3d3d3d3gAAId3
-        d3d3d3d3d3d3d3d3d3d3eAAAh3d3d3d3d3d3d3d3d3d3d3d4AACHd3d3d3d3d3d3d3d3d3d3d3gAAId3
-        d3d3d3d3d3d3d3d3d3d3eAAAh3d3dXd4R3MAZ4Z3OHMACHd4AACHd3d1d3FHhnc4hnc4hnd3d3gAAId3
-        d3V3OFc4d4aGdzgwAAZ3eAAAh3d3dXhHV4Z3OICHGIZ3OHd4AACHd3d1c4dXcwBnhhBHcwBnd3gAAId3
-        d3WGd1d3d3d3d3d3d3d3eAAAh3d3cQh3V3d3d3d3d3d3d3d4AACHd3dxZ3dXd3d3d3d3d3d3d3gAAId3
-        d3d3d3d3d3d3d3d3d3d3eAAAh3d3d3d3d3d3d3d3d3d3d3d4AACHd3d3d3d3d3d3d3d3d3d3d3gAAId3
-        d3d3d3d3d3d3d3d3d3d3eAAAh3d3d3d3d3d3d3d3d3d3d3d4AACIiIiIiIiIiIiIiIiIiIiIiIgAAA==
-</value>
-  </data>
-  <data name="pictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        Qk0aAgAAAAAAAHYAAAAoAAAAJAAAABUAAAABAAQAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAA/wAA
-        gP8AgAD/AICA/4AAAP+AAID/gIAA/8DAwP+AgID/AAD//wD/AP8A/////wAA//8A/////wD//////4iI
-        iIiIiIiIiIiIiIiIiIiIiAAAh3d3d3d3d3d3d3d3d3d3d3d4AACHd3d3d3d3d3d3d3d3d3d3d3gAAId3
-        d3d3d3d3d3d3d3d3d3d3eAAAh3d3d3d3d3d3d3d3d3d3d3d4AACHd3d3d3d3d3d3d3d3d3d3d3gAAId3
-        d3d3d3d3d3d3d3d3d3d3eAAAh3d3dXd4R3MAZ4Z3OHMACHd4AACHd3d1d3FHhnc4hnc4hnd3d3gAAId3
-        d3V3OFc4d4aGdzgwAAZ3eAAAh3d3dXhHV4Z3OICHGIZ3OHd4AACHd3d1c4dXcwBnhhBHcwBnd3gAAId3
-        d3WGd1d3d3d3d3d3d3d3eAAAh3d3cQh3V3d3d3d3d3d3d3d4AACHd3dxZ3dXd3d3d3d3d3d3d3gAAId3
-        d3d3d3d3d3d3d3d3d3d3eAAAh3d3d3d3d3d3d3d3d3d3d3d4AACHd3d3d3d3d3d3d3d3d3d3d3gAAId3
-        d3d3d3d3d3d3d3d3d3d3eAAAh3d3d3d3d3d3d3d3d3d3d3d4AACIiIiIiIiIiIiIiIiIiIiIiIgAAA==
-</value>
-  </data>
-  <data name="pictureBox4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pictureBox6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         Qk0aAgAAAAAAAHYAAAAoAAAAJAAAABUAAAABAAQAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAA/wAA
         gP8AgAD/AICA/4AAAP+AAID/gIAA/8DAwP+AgID/AAD//wD/AP8A/////wAA//8A/////wD//////4iI
@@ -170,7 +144,7 @@
         d3d3d3d3d3d3d3d3d3d3eAAAh3d3d3d3d3d3d3d3d3d3d3d4AACIiIiIiIiIiIiIiIiIiIiIiIgAAA==
 </value>
   </data>
-  <data name="pictureBox6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pictureBox4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         Qk0aAgAAAAAAAHYAAAAoAAAAJAAAABUAAAABAAQAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAA/wAA
         gP8AgAD/AICA/4AAAP+AAID/gIAA/8DAwP+AgID/AAD//wD/AP8A/////wAA//8A/////wD//////4iI
@@ -183,7 +157,7 @@
         d3d3d3d3d3d3d3d3d3d3eAAAh3d3d3d3d3d3d3d3d3d3d3d4AACIiIiIiIiIiIiIiIiIiIiIiIgAAA==
 </value>
   </data>
-  <data name="pictureBox7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         Qk0aAgAAAAAAAHYAAAAoAAAAJAAAABUAAAABAAQAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAA/wAA
         gP8AgAD/AICA/4AAAP+AAID/gIAA/8DAwP+AgID/AAD//wD/AP8A/////wAA//8A/////wD//////4iI
@@ -196,4 +170,33 @@
         d3d3d3d3d3d3d3d3d3d3eAAAh3d3d3d3d3d3d3d3d3d3d3d4AACIiIiIiIiIiIiIiIiIiIiIiIgAAA==
 </value>
   </data>
+  <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk0aAgAAAAAAAHYAAAAoAAAAJAAAABUAAAABAAQAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAA/wAA
+        gP8AgAD/AICA/4AAAP+AAID/gIAA/8DAwP+AgID/AAD//wD/AP8A/////wAA//8A/////wD//////4iI
+        iIiIiIiIiIiIiIiIiIiIiAAAh3d3d3d3d3d3d3d3d3d3d3d4AACHd3d3d3d3d3d3d3d3d3d3d3gAAId3
+        d3d3d3d3d3d3d3d3d3d3eAAAh3d3d3d3d3d3d3d3d3d3d3d4AACHd3d3d3d3d3d3d3d3d3d3d3gAAId3
+        d3d3d3d3d3d3d3d3d3d3eAAAh3d3dXd4R3MAZ4Z3OHMACHd4AACHd3d1d3FHhnc4hnc4hnd3d3gAAId3
+        d3V3OFc4d4aGdzgwAAZ3eAAAh3d3dXhHV4Z3OICHGIZ3OHd4AACHd3d1c4dXcwBnhhBHcwBnd3gAAId3
+        d3WGd1d3d3d3d3d3d3d3eAAAh3d3cQh3V3d3d3d3d3d3d3d4AACHd3dxZ3dXd3d3d3d3d3d3d3gAAId3
+        d3d3d3d3d3d3d3d3d3d3eAAAh3d3d3d3d3d3d3d3d3d3d3d4AACHd3d3d3d3d3d3d3d3d3d3d3gAAId3
+        d3d3d3d3d3d3d3d3d3d3eAAAh3d3d3d3d3d3d3d3d3d3d3d4AACIiIiIiIiIiIiIiIiIiIiIiIgAAA==
+</value>
+  </data>
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk0aAgAAAAAAAHYAAAAoAAAAJAAAABUAAAABAAQAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAA/wAA
+        gP8AgAD/AICA/4AAAP+AAID/gIAA/8DAwP+AgID/AAD//wD/AP8A/////wAA//8A/////wD//////4iI
+        iIiIiIiIiIiIiIiIiIiIiAAAh3d3d3d3d3d3d3d3d3d3d3d4AACHd3d3d3d3d3d3d3d3d3d3d3gAAId3
+        d3d3d3d3d3d3d3d3d3d3eAAAh3d3d3d3d3d3d3d3d3d3d3d4AACHd3d3d3d3d3d3d3d3d3d3d3gAAId3
+        d3d3d3d3d3d3d3d3d3d3eAAAh3d3dXd4R3MAZ4Z3OHMACHd4AACHd3d1d3FHhnc4hnc4hnd3d3gAAId3
+        d3V3OFc4d4aGdzgwAAZ3eAAAh3d3dXhHV4Z3OICHGIZ3OHd4AACHd3d1c4dXcwBnhhBHcwBnd3gAAId3
+        d3WGd1d3d3d3d3d3d3d3eAAAh3d3cQh3V3d3d3d3d3d3d3d4AACHd3dxZ3dXd3d3d3d3d3d3d3gAAId3
+        d3d3d3d3d3d3d3d3d3d3eAAAh3d3d3d3d3d3d3d3d3d3d3d4AACHd3d3d3d3d3d3d3d3d3d3d3gAAId3
+        d3d3d3d3d3d3d3d3d3d3eAAAh3d3d3d3d3d3d3d3d3d3d3d4AACIiIiIiIiIiIiIiIiIiIiIiIgAAA==
+</value>
+  </data>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>

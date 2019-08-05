@@ -1,0 +1,7 @@
+D:\Users\user\文件\Visual Studio 2010\Projects\SATAPortTest\bin\Release\SATAPortTest.exe
+D:\Users\user\文件\Visual Studio 2010\Projects\SATAPortTest\bin\Release\SATAPortTest.pdb
+D:\Users\user\文件\Visual Studio 2010\Projects\SATAPortTest\obj\x86\Release\SATAPortTest.Form1.resources
+D:\Users\user\文件\Visual Studio 2010\Projects\SATAPortTest\obj\x86\Release\SATAPortTest.Properties.Resources.resources
+D:\Users\user\文件\Visual Studio 2010\Projects\SATAPortTest\obj\x86\Release\SATAPortTest.csproj.GenerateResource.Cache
+D:\Users\user\文件\Visual Studio 2010\Projects\SATAPortTest\obj\x86\Release\SATAPortTest.exe
+D:\Users\user\文件\Visual Studio 2010\Projects\SATAPortTest\obj\x86\Release\SATAPortTest.pdb
