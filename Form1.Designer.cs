@@ -56,14 +56,14 @@
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.Clear = new System.Windows.Forms.Button();
             this.Test = new System.Windows.Forms.Button();
+            this.LogoBox = new System.Windows.Forms.PictureBox();
             this.contentBox = new System.Windows.Forms.TextBox();
             this.Scan = new System.Windows.Forms.Button();
             this.Save = new System.Windows.Forms.Button();
             this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.LogoBox = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.Clear = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -340,6 +340,16 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Content";
             // 
+            // Clear
+            // 
+            this.Clear.Location = new System.Drawing.Point(472, 126);
+            this.Clear.Name = "Clear";
+            this.Clear.Size = new System.Drawing.Size(75, 26);
+            this.Clear.TabIndex = 14;
+            this.Clear.Text = "Clear";
+            this.Clear.UseVisualStyleBackColor = true;
+            this.Clear.Click += new System.EventHandler(this.Clear_Click);
+            // 
             // Test
             // 
             this.Test.Location = new System.Drawing.Point(472, 187);
@@ -349,6 +359,15 @@
             this.Test.Text = "Test";
             this.Test.UseVisualStyleBackColor = true;
             this.Test.Click += new System.EventHandler(this.Test_Click);
+            // 
+            // LogoBox
+            // 
+            this.LogoBox.Image = global::SATAPortTest.Properties.Resources.Enno_Ico;
+            this.LogoBox.Location = new System.Drawing.Point(447, 219);
+            this.LogoBox.Name = "LogoBox";
+            this.LogoBox.Size = new System.Drawing.Size(127, 45);
+            this.LogoBox.TabIndex = 13;
+            this.LogoBox.TabStop = false;
             // 
             // contentBox
             // 
@@ -389,29 +408,10 @@
             this.checkBox7.UseVisualStyleBackColor = true;
             this.checkBox7.CheckedChanged += new System.EventHandler(this.checkBox7_CheckedChanged);
             // 
-            // LogoBox
-            // 
-            this.LogoBox.Image = global::SATAPortTest.Properties.Resources.Enno_Ico;
-            this.LogoBox.Location = new System.Drawing.Point(447, 219);
-            this.LogoBox.Name = "LogoBox";
-            this.LogoBox.Size = new System.Drawing.Size(127, 45);
-            this.LogoBox.TabIndex = 13;
-            this.LogoBox.TabStop = false;
-            // 
             // timer1
             // 
             this.timer1.Interval = 5000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick_1);
-            // 
-            // Clear
-            // 
-            this.Clear.Location = new System.Drawing.Point(472, 126);
-            this.Clear.Name = "Clear";
-            this.Clear.Size = new System.Drawing.Size(75, 26);
-            this.Clear.TabIndex = 14;
-            this.Clear.Text = "Clear";
-            this.Clear.UseVisualStyleBackColor = true;
-            this.Clear.Click += new System.EventHandler(this.Clear_Click);
             // 
             // Form1
             // 
@@ -422,6 +422,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
             this.Text = "SATAPort[V0.1]";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

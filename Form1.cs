@@ -200,17 +200,14 @@ namespace SATAPortTest
             {
                 MessageBox.Show("Warning !!! Please Check At Least One !");
                 //Scan_Click(sender, e);
-                Environment.ExitCode = 1;
             }
             else if (GlobalVarable.log_flag == 0)
             {
                 contentBox.AppendText("     Test  Result ----------------> PASS\r\n");
-                Environment.ExitCode = 0;
             }
             else
             {
                 contentBox.AppendText("     Test  Result ----------------> FAIL\r\n");
-                Environment.ExitCode = 1;
             }
             contentBox.AppendText("   [Test End]\r\n\r\n");
 
@@ -222,10 +219,12 @@ namespace SATAPortTest
             IniFile ini = new IniFile(str1 + "\\SATATest.ini");
             if (GlobalVarable.log_flag == 0 && ini.Read("AUTO") == "1")
             { timer1.Start(); timer1_Tick_1(sender, e); }
+        }
 
-
-
-
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            if (GlobalVarable.log_flag == 0) { Environment.ExitCode = 0; }
+            else { Environment.ExitCode = 1; }
         }
 
         public class GlobalVarable
