@@ -59,6 +59,11 @@ namespace SATAPortTest
             if (checkBox7.Checked == true) { ini.Write("AUTO", "1"); } else { ini.Write("AUTO", "0"); }
         }
 
+        private void Clear_Click(object sender, EventArgs e)
+        {
+            contentBox.Text = "";
+        }
+
         private void Scan_Click(object sender, EventArgs e)
         {
 
@@ -71,6 +76,8 @@ namespace SATAPortTest
 
         private void Test_Click(object sender, EventArgs e)
         {
+
+
             DiskName();
 
             CleanPicBox();
@@ -78,6 +85,8 @@ namespace SATAPortTest
             contentBox.AppendText("   [Test Start]\r\n");
 
             CreateFile_textBox_added();
+
+            GlobalVarable.log_flag = 0;
 
             //Test whether checkBox check or not
             int[] CheckBoxBool = new int[7];
@@ -479,6 +488,8 @@ namespace SATAPortTest
             }
 
         }
+
+
 
 
 

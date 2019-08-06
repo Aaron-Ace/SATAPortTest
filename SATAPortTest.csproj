@@ -34,7 +34,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>.\</OutputPath>
+    <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -58,7 +58,7 @@
     <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>4___sata_technology_device_gadget_128_Wto_icon.ico</ApplicationIcon>
+    <ApplicationIcon>4___sata_technology_device_gadget_128_IMR_icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -120,6 +120,7 @@
     <None Include="Resources\bmp00002.bmp" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="4___sata_technology_device_gadget_128_IMR_icon.ico" />
     <Content Include="4___sata_technology_device_gadget_128_Wto_icon.ico" />
     <None Include="Resources\Enno_Ico.bmp" />
   </ItemGroup>

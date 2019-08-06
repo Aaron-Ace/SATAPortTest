@@ -6,3 +6,5 @@ D:\Users\user\文件\Visual Studio 2010\Projects\SATAPortTest\obj\x86\Debug\SATA
 D:\Users\user\文件\Visual Studio 2010\Projects\SATAPortTest\obj\x86\Debug\SATAPortTest.csprojResolveAssemblyReference.cache
 D:\Users\user\文件\Visual Studio 2010\Projects\SATAPortTest\SATAPortTest.exe
 D:\Users\user\文件\Visual Studio 2010\Projects\SATAPortTest\SATAPortTest.pdb
+D:\Users\user\文件\Visual Studio 2010\Projects\SATAPortTest\bin\Debug\SATAPortTest.exe
+D:\Users\user\文件\Visual Studio 2010\Projects\SATAPortTest\bin\Debug\SATAPortTest.pdb
