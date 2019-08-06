@@ -30,19 +30,17 @@ namespace SATAPortTest
 
             string str = System.AppDomain.CurrentDomain.SetupInformation.ApplicationBase;
             IniFile ini = new IniFile(str + "\\SATATest.ini");
+            if (ini.Read("SATA1") == "1") { checkBox1.Checked = true; } else { checkBox1.Checked = false; }
+            if (ini.Read("SATA2") == "1") { checkBox2.Checked = true; } else { checkBox2.Checked = false; }
+            if (ini.Read("SATA3") == "1") { checkBox3.Checked = true; } else { checkBox3.Checked = false; }
+            if (ini.Read("SATA4") == "1") { checkBox5.Checked = true; } else { checkBox5.Checked = false; }
+            if (ini.Read("SATA5") == "1") { checkBox4.Checked = true; } else { checkBox4.Checked = false; }
+            if (ini.Read("SATA6") == "1") { checkBox6.Checked = true; } else { checkBox6.Checked = false; }
             if (ini.Read("AUTO") == "1")
             {
-
-                if (ini.Read("SATA1") == "1") { checkBox1.Checked = true; } else { checkBox1.Checked = false; }
-                if (ini.Read("SATA2") == "1") { checkBox2.Checked = true; } else { checkBox2.Checked = false; }
-                if (ini.Read("SATA3") == "1") { checkBox3.Checked = true; } else { checkBox3.Checked = false; }
-                if (ini.Read("SATA4") == "1") { checkBox5.Checked = true; } else { checkBox5.Checked = false; }
-                if (ini.Read("SATA5") == "1") { checkBox4.Checked = true; } else { checkBox4.Checked = false; }
-                if (ini.Read("SATA6") == "1") { checkBox6.Checked = true; } else { checkBox6.Checked = false; }
-                Test_Click(sender, e);
                 checkBox7.Checked = true;
-
-
+                contentBox.AppendText("   [Auto Test]\r\n");
+                Test_Click(sender, e);
             }
         }
 
@@ -149,47 +147,51 @@ namespace SATAPortTest
             }
             int flag_testcheck = 0;
 
+            //add Time
+            string date = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+            contentBox.AppendText("     Time :" + date + "\r\n");
+
             //add SATA PORT Each result
             if (checkBox1.Checked == true)
             {
                 contentBox.AppendText("     Copy File Test\r\n");
-                if (textBox7.Text == "0") { contentBox.AppendText("     SATA Port #1:PASS\r\n"); }
-                else { contentBox.AppendText("      SATA Port #1:FAIL\r\n"); }
+                if (textBox7.Text == "0") { contentBox.AppendText("     SATA Port #01:PASS\r\n"); }
+                else { contentBox.AppendText("      SATA Port #01:FAIL\r\n"); }
                 flag_testcheck = 1;
             }
             if (checkBox2.Checked == true)
             {
                 contentBox.AppendText("     Copy File Test\r\n");
-                if (textBox8.Text == "0") { contentBox.AppendText("     SATA Port #2:PASS\r\n"); }
-                else { contentBox.AppendText("      SATA Port #2:FAIL\r\n"); }
+                if (textBox8.Text == "0") { contentBox.AppendText("     SATA Port #02:PASS\r\n"); }
+                else { contentBox.AppendText("      SATA Port #02:FAIL\r\n"); }
                 flag_testcheck = 1;
             }
             if (checkBox3.Checked == true)
             {
                 contentBox.AppendText("     Copy File Test\r\n");
-                if (textBox9.Text == "0") { contentBox.AppendText("     SATA Port #3:PASS\r\n"); }
-                else { contentBox.AppendText("      SATA Port #3:FAIL\r\n"); }
+                if (textBox9.Text == "0") { contentBox.AppendText("     SATA Port #03:PASS\r\n"); }
+                else { contentBox.AppendText("      SATA Port #03:FAIL\r\n"); }
                 flag_testcheck = 1;
             }
             if (checkBox4.Checked == true)
             {
                 contentBox.AppendText("     Copy File Test\r\n");
-                if (textBox10.Text == "0") { contentBox.AppendText("        SATA Port #4:PASS\r\n"); }
-                else { contentBox.AppendText("      SATA Port #4:FAIL\r\n"); }
+                if (textBox10.Text == "0") { contentBox.AppendText("        SATA Port #04:PASS\r\n"); }
+                else { contentBox.AppendText("      SATA Port #04:FAIL\r\n"); }
                 flag_testcheck = 1;
             }
             if (checkBox5.Checked == true)
             {
                 contentBox.AppendText("     Copy File Test\r\n");
-                if (textBox11.Text == "0") { contentBox.AppendText("        SATA Port #5:PASS\r\n"); }
-                else { contentBox.AppendText("      SATA Port #5:FAIL\r\n"); }
+                if (textBox11.Text == "0") { contentBox.AppendText("        SATA Port #05:PASS\r\n"); }
+                else { contentBox.AppendText("      SATA Port #05:FAIL\r\n"); }
                 flag_testcheck = 1;
             }
             if (checkBox6.Checked == true)
             {
                 contentBox.AppendText("     Copy File Test\r\n");
-                if (textBox12.Text == "0") { contentBox.AppendText("        SATA Port #6:PASS\r\n"); }
-                else { contentBox.AppendText("      SATA Port #6:FAIL\r\n"); }
+                if (textBox12.Text == "0") { contentBox.AppendText("        SATA Port #06:PASS\r\n"); }
+                else { contentBox.AppendText("      SATA Port #06:FAIL\r\n"); }
                 flag_testcheck = 1;
             }
 
@@ -198,14 +200,17 @@ namespace SATAPortTest
             {
                 MessageBox.Show("Warning !!! Please Check At Least One !");
                 //Scan_Click(sender, e);
+                Environment.ExitCode = 1;
             }
             else if (GlobalVarable.log_flag == 0)
             {
                 contentBox.AppendText("     Test  Result ----------------> PASS\r\n");
+                Environment.ExitCode = 0;
             }
             else
             {
                 contentBox.AppendText("     Test  Result ----------------> FAIL\r\n");
+                Environment.ExitCode = 1;
             }
             contentBox.AppendText("   [Test End]\r\n\r\n");
 
@@ -232,8 +237,11 @@ namespace SATAPortTest
         int timeLeft = 1;
         private void timer1_Tick_1(object sender, EventArgs e)
         {
-            timer1.Start();
-            if (timeLeft > 0)
+            if (checkBox7.Checked == false)
+            {
+                timeLeft = 1;
+            }
+            else if (timeLeft > 0)
             {
                 timeLeft = timeLeft - 1;
             }
@@ -411,12 +419,6 @@ namespace SATAPortTest
         }
         public void CleanAll()
         {
-            checkBox1.Checked = false;
-            checkBox2.Checked = false;
-            checkBox3.Checked = false;
-            checkBox4.Checked = false;
-            checkBox5.Checked = false;
-            checkBox6.Checked = false;
             textBox1.Clear();
             textBox2.Clear();
             textBox3.Clear();
@@ -427,6 +429,15 @@ namespace SATAPortTest
             contentBox.AppendText("----------Scan Serial ATA Storage----------\r\n");
             CleanPicBox();
             GlobalVarable.SataPortCount = 0;
+        }
+        public void CleanCheckBox()
+        {
+            checkBox1.Checked = false;
+            checkBox2.Checked = false;
+            checkBox3.Checked = false;
+            checkBox4.Checked = false;
+            checkBox5.Checked = false;
+            checkBox6.Checked = false;
         }
         public void CleanPicBox()
         {
