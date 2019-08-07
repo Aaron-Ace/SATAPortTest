@@ -55,6 +55,7 @@ namespace SATAPortTest
             if (checkBox4.Checked == true) { ini.Write("SATA5", "1"); } else { ini.Write("SATA5", "0"); }
             if (checkBox6.Checked == true) { ini.Write("SATA6", "1"); } else { ini.Write("SATA6", "0"); }
             if (checkBox7.Checked == true) { ini.Write("AUTO", "1"); } else { ini.Write("AUTO", "0"); }
+            contentBox.AppendText("   Saved test configuration\r\n");
         }
 
         private void Clear_Click(object sender, EventArgs e)
@@ -395,6 +396,7 @@ namespace SATAPortTest
         public void DiskName()
         {
             int count = 0;
+
 
             DriveInfo[] allDrives = DriveInfo.GetDrives();
             foreach (DriveInfo d in allDrives)
