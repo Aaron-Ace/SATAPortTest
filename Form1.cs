@@ -319,9 +319,9 @@ namespace SATAPortTest
                 try
                 {
                     StreamWriter writer = new StreamWriter(Directory.GetCurrentDirectory() + "\\" + logfilename, true);
-                    writer.Write("SATA Port Test [ V0.1] : \r\n");
+                    writer.Write("SATA Port Test  : \r\n");
                     writer.Write("-------------------------------------- \r\n");
-                    writer.Write("Time\tResult\r\n");
+                    writer.Write("Time\t\t\t     Result\r\n");
                     writer.Close();
 
                 }

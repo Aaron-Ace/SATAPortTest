@@ -5,3 +5,4 @@ D:\Users\user\文件\Visual Studio 2010\Projects\SATAPortTest\obj\x86\Release\SA
 D:\Users\user\文件\Visual Studio 2010\Projects\SATAPortTest\obj\x86\Release\SATAPortTest.csproj.GenerateResource.Cache
 D:\Users\user\文件\Visual Studio 2010\Projects\SATAPortTest\obj\x86\Release\SATAPortTest.exe
 D:\Users\user\文件\Visual Studio 2010\Projects\SATAPortTest\obj\x86\Release\SATAPortTest.pdb
+D:\Users\user\文件\Visual Studio 2010\Projects\SATAPortTest\obj\x86\Release\SATAPortTest.csprojResolveAssemblyReference.cache
